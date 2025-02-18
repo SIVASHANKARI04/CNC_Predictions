@@ -36,7 +36,7 @@ set_image_local("Webp.net-resizeimage.png")
 # Function to load the Keras model
 def load_model_file():
     custom_objects = {"LeakyReLU": LeakyReLU}
-    model_path = "model (1).h5"
+    model_path = "model1.h5"
     if os.path.exists(model_path):
         try:
             return load_model(model_path, custom_objects=custom_objects)
@@ -49,7 +49,7 @@ def load_model_file():
 
 # Function to load the scaler pickle file
 def load_scaler_file():
-    scaler_path = "PM.pkl"
+    scaler_path = "CNC_PM.pkl"
     if os.path.exists(scaler_path):
         try:
             with open(scaler_path, "rb") as f:
