@@ -26,7 +26,7 @@ def set_image_local(image_path):
         unsafe_allow_html=True
     )
 
-set_image_local(r"pic2.jpg")
+set_image_local(r"Webp.net-resizeimage.png")
 # Function to load the Keras model
 def load_model_file():
     custom_objects = {"LeakyReLU": LeakyReLU}
