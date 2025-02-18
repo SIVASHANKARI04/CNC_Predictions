@@ -31,7 +31,7 @@ def set_image_local(image_path):
         st.error(f"Error loading background image: {e}")
 
 # Set the background image
-set_image_local("Webp.net-resizeimage.png")
+set_image_local("Predictive-Maintenance-with-Machine-Learning_-A-Complete-Guide.webp")
 
 # Function to load the Keras model
 def load_model_file():
