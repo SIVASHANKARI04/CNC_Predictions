@@ -44,7 +44,7 @@ def load_model_file():
 # Function to load the scaler
 def load_scaler_file():
     try:
-        scaler_path = "scaler.pkl"
+        scaler_path = "PM.pkl"
         if os.path.exists(scaler_path):
             with open(scaler_path, "rb") as f:
                 return pickle.load(f)
